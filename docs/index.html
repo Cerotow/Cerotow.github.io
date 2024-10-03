@@ -136,7 +136,7 @@
             z-index: 2;
         }
 
-        .hearts, img {
+        .hearts {
             position: absolute;
             top: 90px;
             left: 0;
@@ -150,11 +150,8 @@
             right: 10%;
             pointer-events: none;
         }
-        img {
-            mask-border: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
-  clip-path: polygon(-41% 0,50% 91%, 141% 0);
-            width: 100px;
-            height: 100px;
+        div {
+            overflow: hidden;
         }
         .heart:before,
         .heart:after {
